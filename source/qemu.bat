@@ -1,0 +1,1 @@
+"C:\Program Files\qemu\qemu-system-x86_64.exe" "C:\Users\Ruwan Bandara\Desktop\New folder (2)\Aqua_Seven_OS-master\AQUASEVEN\source\kernel.iso"
