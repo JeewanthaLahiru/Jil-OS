@@ -1,5 +1,5 @@
 ; ==================================================================
-; Bubble_OS -- The Bubble_OS Operating System kernel
+; Jil_OS -- The Jil_OS Operating System kernel
 ;
 ; SCREEN HANDLING SYSTEM CALLS
 ; ==================================================================
@@ -87,7 +87,7 @@ os_draw_background:
 	mov ah, 09h			; Draw white bar at top
 	mov bh, 0
 	mov cx, 80
-	mov bl, 1000b
+	mov bl, 11111000b
 	mov al, ' '
 	int 10h
 
@@ -109,7 +109,7 @@ os_draw_background:
 	mov ah, 09h			; Draw white bar at bottom
 	mov bh, 0
 	mov cx, 80
-	mov bl, 1000b
+	mov bl, 11111000b
 	mov al, ' '
 	int 10h
 

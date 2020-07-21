@@ -71,7 +71,7 @@ option_screen:
 
 	; Data for the above code...
 
-	os_init_msg		db '+------------------------Welcome to JilOS------------------------+', 0
+	os_init_msg		db '|_____________________________Welcome to JilOS_____________________________|', 0
 	os_version_msg		db 'Version ', JilOs_VER, 0
 
 	os_init_msg2		db '                         Hardware Information                               ', 0

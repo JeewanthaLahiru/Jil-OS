@@ -71,14 +71,14 @@ option_screen:
 
 	; Data for the above code...
 
-	os_init_msg		db '+------------------------Welcome to JilOS------------------------+', 0
+	os_init_msg		db '+------------------------+  \\ Welcome to JilOS //  +------------------------+', 0
 	os_version_msg		db 'Version ', JilOs_VER, 0
 
 	os_init_msg2		db '                         Hardware Information                               ', 0
 	os_version_msg2		db 'Version ', JilOs_VER, 0
 
-	dialog_string_1		db 'Welcome to Jil Operating System', 0
-	dialog_string_2		db 'Please select HDI for HardwareInfo or', 0
+	dialog_string_1		db 'Welcome to JilOS Operating System', 0
+	dialog_string_2		db 'Please select Info for HardwareInfo or', 0
 	dialog_string_3		db 'select Exit for quit the OS.', 0
 
 os_exit:
